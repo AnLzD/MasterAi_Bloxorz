@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background">
+	
+	<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="*"
+		android:padding="10dip">
+		
+		<TableRow>
+			<TextView
+				android:text="PlayerName"
+				android:layout_span="3"
+				android:gravity="right"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:paddingBottom="10dip"
+			/>
+		</TableRow>
+		
+		<TableRow
+			android:paddingBottom="1dip">
+			
+			<TextView
+				android:text=""
+			/>
+			
+			<LinearLayout
+				android:id="@+id/PlayerList"
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			
+				<Button
+					android:id="@+id/Player1"
+					android:text="Player1"
+					android:textStyle="bold"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+				/>
+				
+				<Button
+					android:id="@+id/Player2"
+					android:text="Player2"
+					android:textStyle="bold"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+				/>
+				
+				<Button
+					android:id="@+id/Player3"
+					android:text="Player3"
+					android:textStyle="bold"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+				/>
+			
+			</LinearLayout>
+			
+			<TextView
+				android:text=""
+			/>
+		</TableRow>
+		
+		<TableRow
+		android:paddingTop="40dip">
+			<TextView
+				android:text=""
+			/>
+			
+			<Button
+				android:id="@+id/NewPlayer"
+				android:text="New Player"
+				android:textStyle="bold"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+			/>
+			
+			<TextView
+				android:text=""
+			/>
+		</TableRow>
+			
+	</TableLayout>
+</ScrollView>

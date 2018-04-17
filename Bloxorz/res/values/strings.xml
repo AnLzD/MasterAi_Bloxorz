@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Bloxorz</string>
+	<string name="play">Play</string>
+	<string name="chooseLevel">Choose Level</string>
+	<string name="changePlayer">Change Player</string>
+	<string name="sound">Sound On/Off</string>
+	<string name="highScores">High Scores</string>
+	<string name="credits">Credits</string>
+	<string name="exit">Exit</string>
+	
+	<string name="message">Done!!!</string>
+</resources>

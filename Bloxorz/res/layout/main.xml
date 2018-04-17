@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background">
+	
+	<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="*"
+		android:layout_gravity="center_horizontal"
+		android:padding="10dip">
+		
+		<TableRow>
+			<TextView
+				android:text="PlayerName"
+				android:layout_span="3"
+				android:gravity="right"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:paddingBottom="10dip"
+			/>
+		</TableRow>
+		
+		<TableRow
+			android:paddingBottom="1dip">
+			
+			<TextView
+				android:text=""
+			/>
+			
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			
+				<Button
+					android:id="@+id/Play"
+					android:text="@string/play"
+					android:textStyle="bold"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+				/>
+				
+				<Button
+					android:id="@+id/ChooseLevel"
+					android:text="@string/chooseLevel"
+					android:textStyle="bold"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+				/>
+				
+				<Button
+					android:id="@+id/Change_player"
+					android:text="@string/changePlayer"
+					android:textStyle="bold"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+				/>
+				
+				<Button
+					android:id="@+id/Sound"
+					android:text="@string/sound"
+					android:textStyle="bold"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+				/>
+				
+				<Button
+					android:id="@+id/HighScores"
+					android:text="@string/highScores"
+					android:textStyle="bold"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+				/>
+				
+				<Button
+					android:id="@+id/Credits"
+					android:text="@string/credits"
+					android:textStyle="bold"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+				/>
+				
+				<Button
+					android:id="@+id/Exit"
+					android:text="@string/exit"
+					android:textStyle="bold"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+				/>
+			
+			</LinearLayout>
+			
+			<TextView
+				android:text=""
+			/>
+		</TableRow>
+		
+		
+			
+			
+	</TableLayout>
+</ScrollView>
